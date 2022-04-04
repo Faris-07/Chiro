@@ -14,7 +14,7 @@ body {
 .alert-container {}
 
 .callout-container {
-    height: 100vh;
+    height: 75vh;
 
     background: url('../assets/images/chiropractor-for-upper-back-pain-980x653.jpeg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -56,8 +56,10 @@ body {
 
 .navbar {
     margin-bottom: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
     width: 100%;
-    background-color: rgba(0, 0, 0, .25);
+    background-color: #3A3238;
     border: 0;
 }
 
@@ -72,7 +74,6 @@ body {
 .navbar .navbar-nav a {
     font-weight: bold;
 }
-
 
 /* Jumbotron */
 
@@ -131,7 +132,6 @@ body {
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
-    width: 160px;
 }
 
 .btn--red {
@@ -210,10 +210,22 @@ body {
 /*  */
 
 #quote {
+    background-color: white;
+}
+
+#welcome-bg {
     background-color: #3A3238;
 }
 
 hr {
     clear: both;
     visibility: hidden;
+}
+
+.live-page {
+    border-bottom: 3px solid #F58F29;
+}
+
+nav a:hover {
+    color: #F58F29;
 }
